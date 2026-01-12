@@ -1,0 +1,10 @@
+# Build outputs
+bin/
+obj/
+
+# Editor settings
+.vscode/
+
+# SQLite runtime files
+*.db-shm
+*.db-wal
