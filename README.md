@@ -14,6 +14,20 @@ A backend-only RESTful Web API built using ASP.NET Core.
 - Entity Framework Core
 - SQLite
 
+## Endpoints
+- GET /games
+- GET /games/{id}
+- POST /games
+- PUT /games/{id}
+- DELETE /games/{id}
+
+## Project Structure
+- Models – Domain entities
+- DTOs – API request/response contracts
+- Endpoints – Minimal API endpoints
+- Data – Database context and persistence
+
+
 ## How to Run
 1. Clone the repository
 2. Open the solution in Visual Studio / VS Code
